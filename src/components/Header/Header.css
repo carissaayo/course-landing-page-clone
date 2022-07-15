@@ -1,0 +1,10 @@
+.header{
+    width: 100vw;
+    height: 100vh;
+    color:var( --header-color);
+    background-image: url('../../assets/img/h1_hero.png');
+          background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}

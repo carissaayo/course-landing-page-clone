@@ -1,0 +1,44 @@
+.services {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #ffffff;
+    color:var(---services-font-color);
+  padding: 0 10%;
+
+}
+
+.service-top-con {
+  position: relative;
+  gap: 30px;
+  top:-100px;
+}
+.service-item {
+  box-shadow: 0px 25px 60px rgb(66 85 164 / 6%);
+  padding: 29px 24px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 29px 24px;
+    gap:20px;
+    max-width: 33.33%;
+}
+
+.service-item__img-con{
+         position: relative;
+    top: 8px;
+}
+
+.service-item h3 {
+ margin-bottom: 10px;
+ font-size: 1.25rem;
+}
+
+.service-item p {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
+
+.services-main-con{
+    padding: 100px 0;
+}
