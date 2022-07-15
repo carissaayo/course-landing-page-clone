@@ -3,6 +3,7 @@ import "./Services.css";
 import icon1 from "../../assets/img/icon1.svg";
 import icon2 from "../../assets/img/icon2.svg";
 import icon3 from "../../assets/img/icon3.svg";
+import Course from '../Course/Course';
 
 
 
@@ -39,6 +40,7 @@ const Services = () => {
       </div>
       <div className='services-main-con'>
         <h2>Our featured courses</h2>
+        <Course/>
       </div>
     </section>
   );
