@@ -1,7 +1,7 @@
 import React from 'react';
 import "./CourseCard.css"
 import cardImg from "../../assets/img/featured2.png";
-import "boxicons";
+
 const CourseCard = () => {
   return (
     <div className="card">
