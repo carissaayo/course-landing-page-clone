@@ -4,7 +4,7 @@
   --blue:#7077FF;
   --body-font: 'Mulish', sans-serif;
   --hs-font:"Josefin Sans", sans-serif;
-  --nav-color:#FDFDFF;
+  --header-color:#FDFDFF;
   --button-color:#FF9F67;
   --sticky-nav-background:linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
   --body-font-weight: normal;
@@ -29,6 +29,8 @@ body {
   font-weight: var(--body-font-weight);
   font-style: var(--body-font-style);
   font-size: var(--body-font-size);
+  width: 100vw;
+  height: 100vh;
 }
 
 h1,h2,h3,h4,h5,h6{
