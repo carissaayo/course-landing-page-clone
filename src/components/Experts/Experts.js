@@ -3,7 +3,7 @@ import teamImg1 from "../../assets/img/team1.png"
 
 const Experts = () => {
   return (
-    <section className="experts">
+    <section className="experts section">
       <h2 className="section__title">Community experts</h2>
       <div className="experts-con flex">
         <div className="single-expert">

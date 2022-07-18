@@ -1,9 +1,7 @@
 
 .about{
-    /* margin-top: 100px; */
     padding:  0 6%;
         flex-wrap: wrap;
-        height: calc(100vh - 105px);
 }
 
 .about-icon-con{

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Outcome = () => {
   return (
-    <div>Outcome</div>
+    <section className="outcome section">Outcome</section>
   )
 }
 

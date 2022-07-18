@@ -1,6 +1,6 @@
 .hero{
     /* background-image: url('../../assets/img/h1_hero.png'); */
-    height: calc(100vh - 105px);
+   
         background-repeat: no-repeat;
     background-position: center center;
     margin: 0 10%;

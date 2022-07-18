@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Subjects from './components/Subjects/Subjects';
 import CTA from './components/CTA/CTA';
 import Experts from './components/Experts/Experts';
+import Outcome from './components/Outcome/Outcome';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Subjects/>
      <CTA/>
      <Experts/>
+     <Outcome/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero flex">
+    <section className="hero flex section">
       <div className="hero-con">
         <h1 className="hero-text">
           Online learning

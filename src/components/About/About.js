@@ -3,7 +3,7 @@ import "./About.css";
 import rightIcon from "../../assets/img/right-icon.svg"
 const About = () => {
   return (
-    <section className="about flex">
+    <section className="about flex section">
       <div className="about-text-con">
         <div className="about-icon-con">
           <svg
@@ -21,9 +21,7 @@ const About = () => {
           </svg>
         </div>
         <div className="about-left__side">
-          <h2 className="">
-            Learn new skills online with top educators
-          </h2>
+          <h2 className="">Learn new skills online with top educators</h2>
           <p>
             The automated process all your website tasks. Discover tools and
             techniques to engage effectively with vulnerable children and young

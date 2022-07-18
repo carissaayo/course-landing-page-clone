@@ -4,7 +4,7 @@ import rightIcon from "../../assets/img/right-icon.svg";
 
 const CTA = () => {
   return (
-    <section className="CTA flex">
+    <section className="CTA flex section">
       <div className="CTA__img-con">
         <img src={aboutImg} alt="" />
       </div>
