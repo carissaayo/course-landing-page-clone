@@ -43,6 +43,7 @@ body {
 
 h1,h2,h3,h4,h5,h6{
   font-family: var(--hs-font);
+      color: #4255A4;
 }
 
 
@@ -70,4 +71,13 @@ li{
 
 .block{
   display:block
+}
+
+.section__title{
+    font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #4255a4;
+  text-align: center;
+  
 }

@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Services from "./components/Services/Services";
 import About from "./components/About/About";
 import Subjects from './components/Subjects/Subjects';
+import CTA from './components/CTA/CTA';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Services/>
      <About/>
      <Subjects/>
+     <CTA/>
     </div>
   );
 }

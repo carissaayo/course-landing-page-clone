@@ -1,0 +1,36 @@
+.CTA{
+  height: calc(100vh - 250px);
+    padding: 0 6%;
+    gap:10px;
+    width:100vw;
+    align-content: center;
+    justify-content:space-around;
+}
+
+.CTA__img-con img{
+    width:100%
+}
+
+.CTA__text-con{
+        width: 35%
+}
+
+.CTA__text-con h2{
+    text-align: left;
+    margin-bottom: 21px;
+}
+
+.CTA__text-con .CTA-text-min-con{
+        max-width: 650px;
+        display: flex;
+        gap:20px;
+
+
+}
+
+.CTA__text-con p{
+        font-size: 15px;
+    line-height: 1.8;
+    color: #4255A4;
+
+}

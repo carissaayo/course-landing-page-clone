@@ -40,7 +40,7 @@ const Services = () => {
         </div>
       </div>
       <div className="services-main-con">
-        <h2>Our featured courses</h2>
+        <h2 className="section__title">Our featured courses</h2>
         <Course />
       </div>
     </section>

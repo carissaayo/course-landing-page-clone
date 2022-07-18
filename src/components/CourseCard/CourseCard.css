@@ -17,7 +17,9 @@
     margin-bottom: 15px;
     font-weight: normal;
 }
-
+.card__text-con h3{
+    
+}
 .card__text-con h3 a{
     font-size: 1.25rem;
     font-weight: 500;

@@ -23,6 +23,9 @@
     line-height: 30px;
     margin-bottom: 34px;
 }
+.hero h1{
+    color: white;
+}
 
 .hero a{
     background-color:var(--button-color);

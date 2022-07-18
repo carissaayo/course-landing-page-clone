@@ -21,7 +21,9 @@ const About = () => {
           </svg>
         </div>
         <div className="about-left__side">
-          <h2>Learn new skills online with top educators</h2>
+          <h2 className="">
+            Learn new skills online with top educators
+          </h2>
           <p>
             The automated process all your website tasks. Discover tools and
             techniques to engage effectively with vulnerable children and young
