@@ -1,10 +1,5 @@
 .hero{
-    /* background-image: url('../../assets/img/h1_hero.png'); */
-   
-        background-repeat: no-repeat;
-    background-position: center center;
-    margin: 0 10%;
-    background-size: cover;
+    padding:  0 10%;
 }
 
 .hero-con{
@@ -22,6 +17,7 @@
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 34px;
+    color:white
 }
 .hero h1{
     color: white;

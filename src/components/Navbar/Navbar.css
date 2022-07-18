@@ -3,7 +3,7 @@
     background-color: var(--blue);
     padding: 0px 30px;
     height: --nav-height;
-    /* width: 100%; */
+    width: 100vw;
 }
 
 
