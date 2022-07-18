@@ -1,6 +1,7 @@
-.subjects {
-  height: calc(100vh - 105px);
+.subjects h2.section__title{
+    text-align:center ;
 }
+
 
 .subjects-con {
   grid-template-columns: repeat(4, 1fr);

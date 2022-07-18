@@ -10,7 +10,7 @@ import topicImg8 from "../../assets/img/topic8.png";
 
 const Subjects = () => {
   return (
-    <section className="subjects">
+    <section className="subjects section">
       <h2 className="section__title">Explore top subjects</h2>
       <div className="subjects-con grid">
         <div className="single_subject">

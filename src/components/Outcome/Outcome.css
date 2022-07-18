@@ -1,4 +1,37 @@
 .outcome{
-      height: calc(100vh - 250px);
-width: 100vw;
+    padding: 0 4%;
+    /* gap:30px
+     */
+}
+
+.outcome-con{
+    height: 450px;
+     /* justify-content: space-around; */
+     justify-content: start;
+     gap:50px;
+     align-items: flex-start;
+
+}
+.outcome__img-con{
+    width: 700px;
+}
+.outcome img{
+    width: 100%;
+    height: 100%;
+}
+
+.outcome__text-con{
+    max-width: 550px;
+    padding-top: 100px;
+}
+
+.outcome-btn-con button{
+    border: 1px solid #FF9F67;
+    color:white;
+    border-radius: 5px;
+    padding: 17px 42px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #FF9F67;
 }
