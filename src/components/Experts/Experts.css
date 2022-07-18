@@ -1,0 +1,29 @@
+.experts{
+  height: calc(100vh - 250px);
+width: 100vw;
+text-align: center;
+padding: 0 8%;
+}
+
+.experts-con{
+    width: 70%;
+    gap:20px
+}
+
+.experts-con h5 a{
+    font-size: 1.5rem;
+}
+
+.experts-con p{
+        color: #57667e;
+
+}
+
+.single-expert{
+    width:263px;
+    margin: 0 15px;
+}
+
+.single-expert > *{
+    margin-bottom: 20px;
+}

@@ -4,6 +4,7 @@ import Services from "./components/Services/Services";
 import About from "./components/About/About";
 import Subjects from './components/Subjects/Subjects';
 import CTA from './components/CTA/CTA';
+import Experts from './components/Experts/Experts';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <About/>
      <Subjects/>
      <CTA/>
+     <Experts/>
     </div>
   );
 }
