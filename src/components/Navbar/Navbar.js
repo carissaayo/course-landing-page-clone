@@ -8,6 +8,7 @@ const Navbar = () => {
       <div className="logo-con">
         <a href="#">
         <img src={logo} alt="logo" />
+        
         </a>
       </div>
       <nav className="nav-con flex">

@@ -39,9 +39,9 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className='services-main-con'>
+      <div className="services-main-con">
         <h2>Our featured courses</h2>
-        <Course/>
+        <Course />
       </div>
     </section>
   );

@@ -16,7 +16,9 @@
     --body-font-style: normal;
     --body-font-size: 16px;
     
----services-font-color: #4255A4;
+--services-font-color: #4255A4;
+--nav-height:105px;
+--section-height:calc(100vh - 105px)
 }
 
 
@@ -30,8 +32,6 @@ html{
 }
 body {
   font-family: var(--body-font);
-  /* font-size: var(--normal-font-size); */
-  /* background-color: var(--body-color); */
   color: var(--text-color);
   font-weight: var(--body-font-weight);
   font-style: var(--body-font-style);
@@ -67,3 +67,7 @@ li{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }  
+
+.block{
+  display:block
+}

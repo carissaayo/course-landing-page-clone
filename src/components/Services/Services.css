@@ -1,6 +1,6 @@
 .services {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   background-color: #ffffff;
     color:var(---services-font-color);
@@ -50,3 +50,4 @@
     line-height: 1.3;
     margin-bottom: 50px;
 }
+
