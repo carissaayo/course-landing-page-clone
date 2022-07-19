@@ -1,13 +1,14 @@
 .experts{
 text-align: center;
-padding: 0 8%;
-flex-wrap: wrap;
+padding: 50px 8%;
+height: auto;
 }
 
 .experts-con{
-    /* width: 90%; */
     gap:20px;
     justify-content: space-evenly;
+flex-wrap: wrap;
+
 }
 
 .experts-con h5 a{
@@ -26,4 +27,19 @@ flex-wrap: wrap;
 
 .single-expert > *{
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 990px) {
+.experts{
+height: auto;
+}
+.experts h2.section__title{
+    margin-bottom: 100px;
+}
+
+  .single-expert{
+    width:315px;
+    margin: 0 15px;
+}
 }

@@ -67,3 +67,53 @@
     color:#C86FFF;
     margin: 0 8px;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .footer{
+        height: fit-content;
+    padding: 100px 5%;
+
+        padding-bottom: 15px;
+    }
+.footer-con{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-con >* {
+    width: 30%;
+    margin-bottom: 50px;
+}
+.footer__logo-con{
+    width: 40%;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+    padding: 100px 10%;
+        padding-bottom: 15px;
+    }
+
+.footer-con >* {
+    width: 40%;
+}
+.footer__logo-con{
+    width: 45%;
+}
+}
+
+@media screen and (max-width: 565px) {
+    .footer{
+    padding: 100px 4%;
+        padding-bottom: 15px;
+    }
+
+.footer-con >* {
+    width: 100%;
+}
+.footer__logo-con{
+    width: 100%;
+}
+}

@@ -35,3 +35,68 @@
     font-weight: 500;
     background: #FF9F67;
 }
+
+@media screen and (max-width: 1200px) {
+    .outcome{
+        height: auto;
+    }
+.outcome-con{
+    flex-direction: column;
+    height: auto;
+}
+.outcome__img-con{
+    width: 90%;
+    height: 690px;
+    padding-left: 8%;
+}
+.outcome img{
+    width:100%
+}
+
+.outcome__text-con{
+    max-width: 60%;
+    padding-top: 40px;
+}
+}
+
+@media screen and (max-width: 990px) {
+    .outcome{
+        height: auto;
+    }
+.outcome-con{
+    flex-direction: column;
+    height: auto;
+}
+.outcome__img-con{
+    width: 100%;
+    height:auto;
+    padding-left: 0%;
+}
+.outcome img{
+    width:100%
+}
+
+}
+
+@media screen and (max-width: 770px) {
+    .outcome{
+        height: auto;
+    }
+.outcome-con{
+    flex-direction: column;
+    height: auto;
+}
+.outcome__img-con{
+    width: 100%;
+    height:auto;
+    padding-left: 0%;
+}
+.outcome img{
+    width:100%
+}
+.outcome__text-con{
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+}
