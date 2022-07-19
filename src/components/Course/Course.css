@@ -1,13 +1,59 @@
 .courses-con{
-    gap:30px;
+    position: relative;
+}
+.course-swiper{
+  width: 90%;
+}
+.swiper-slide{
+  width: 31%;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  padding: 6px;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.swiper-button-prev {
+  left:-3%;
+}
+
+.swiper-button-next {
+  right: -3%  
+}
+.swiper-button-next,.swiper-button-prev{
+      color: #4255A4;
 }
 
 
 @media screen and (max-width: 990px) {
-  .courses-con{
-  flex-wrap: wrap;
-    max-width: 720px;
-    justify-content: center;
-  }
+
+  .swiper-slide{
+  width: 48%;
+}
+  
+}
+
+
+@media screen and (max-width: 767px) {
+ .course-swiper{
+  width: 70%;
+}
+  .swiper-slide{
+  width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+ display: none;
+}
   
 }
