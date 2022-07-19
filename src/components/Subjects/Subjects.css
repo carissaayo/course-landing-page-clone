@@ -75,3 +75,108 @@
     font-weight: 500;
     
 }
+
+
+@media screen and (max-width: 1370px) {
+   
+.subjects-con {
+  grid-template-columns: repeat(4, 270px);
+  padding: 40px 6%;
+  column-gap:20px
+}
+}
+
+
+
+@media screen and (max-width: 1270px) {
+   .subjects{
+  margin-top: 100px;
+   }
+.subjects-con {
+    padding: 40px 3%;
+}
+}   
+
+
+@media screen and (max-width: 1200px) {
+.subjects-con {
+  grid-template-columns: repeat(4, 210px);
+  column-gap:30px;
+  padding: 40px 6%;
+}
+.single_subject{
+    width: 210px;
+    height:110px;
+}
+
+.single_subject img{
+    height: 110px;
+}
+}   
+
+
+
+@media screen and (max-width: 1030px) {
+.subjects-con {
+  padding: 40px 4%;
+}
+}   
+
+
+@media screen and (max-width: 990px) {
+    .subjects{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+   
+.subjects-con {
+  grid-template-columns: repeat(3, 210px);
+  padding: 40px 15%;
+  gap: 20px;
+}
+.single_subject{
+    width: 210px;
+    height:110px;
+}
+
+.single_subject img{
+    height: 110px;
+}
+}
+
+@media screen and (max-width: 760px) {
+   
+.subjects-con {
+  grid-template-columns: repeat(2, 270px);
+  padding: 40px 8%;
+  gap: 20px;
+}
+.single_subject{
+    width: 270px;
+    height:160px;
+}
+
+.single_subject img{
+    height: 160px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+   
+.subjects-con {
+  grid-template-columns: repeat(1, 1fr);
+  padding: 40px 5%;
+  gap: 20px;
+}
+.single_subject{
+    width: 100%;
+    height:100%;
+}
+
+.single_subject img{
+    height: 100%;
+}
+
+}

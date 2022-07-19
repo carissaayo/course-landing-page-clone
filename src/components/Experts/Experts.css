@@ -5,8 +5,9 @@ flex-wrap: wrap;
 }
 
 .experts-con{
-    width: 70%;
-    gap:20px
+    /* width: 90%; */
+    gap:20px;
+    justify-content: space-evenly;
 }
 
 .experts-con h5 a{

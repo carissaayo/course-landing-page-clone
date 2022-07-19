@@ -1,14 +1,14 @@
-import React from "react";
+import {useState} from "react";
 import logo from "../../assets/img/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false)
   return (
     <section className="nav flex">
       <div className="logo-con">
         <a href="#">
-        <img src={logo} alt="logo" />
-        
+          <img src={logo} alt="logo" />
         </a>
       </div>
       <nav className="nav-con flex">
@@ -31,13 +31,16 @@ const Navbar = () => {
         </ul>
         <ul className="sign-con flex">
           <li>
-            <a href="#">Sign</a>
+            <a href="#">Join</a>
           </li>
           <li>
             <a href="#">Log In</a>
           </li>
         </ul>
       </nav>
+        <div className="mobile-nav show-nav" onClick={()=>setOpen(!open)}>
+          <i class="bi bi-list"></i>
+        </div>
     </section>
   );
 };

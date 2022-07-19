@@ -1,133 +1,102 @@
-/* has a class of flex applied */
-.nav{
-    background-color: var(--blue);
-    padding: 0px 30px;
-    height: --nav-height;
-    width: 100vw;
+.nav {
+  background-color: var(--blue);
+  padding: 20px 30px;
+  height: --nav-height;
+  width: 100vw;
 }
 
-
-.logo-con{
-    flex: 1;
+.logo-con {
+  flex: 1;
 }
 
-.nav-con{
-    flex: 1;
-    margin-right: 20px;
+.nav-con {
+  flex: 1;
+  margin-right: 20px;
 }
 
-.nav__links{
-    width:60%;
+.nav__links {
+  width: 60%;
 }
 
-.sign-con{
-    width:30%;
-    height: 100%;
-    padding-right: 30px;
-    gap: 20px;
-
+.sign-con {
+  width: 30%;
+  height: 100%;
+  padding-right: 30px;
+  gap: 20px;
 }
-.sign-con li{
-    height: 100%;
-    width:100%;
-   position: relative;
-}
-
-.sign-con li a{
-    width:108px;
-    height:52px;
-    padding: 15px 30px;
-    border-radius: 5px;
-    border:1px solid var(--header-color);
-
-    transition: background-color .2s linear ;
-
+.sign-con li {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-.sign-con li:first-child a,.sign-con li:last-child a:hover{
-    background-color:var(--button-color);
-    border: 1px solid var(--button-color);
-    transition: background-color .2s ease-in-out ;
-
-
+.sign-con li a {
+  width: 108px;
+  height: 52px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid var(--header-color);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s linear;
 }
 
-.sign-con li:first-child a:hover{
-    background-color: #AE59FF;
-    border: #AE59FF;
+.sign-con li:first-child a,
+.sign-con li:last-child a:hover {
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  transition: background-color 0.2s ease-in-out;
 }
 
-
-
-/* .sign-con li:first-child a::after{
-   content: "";
-   display: inline-block;
-   position: absolute;
-   top:0;
-   left:0;
-   text-align: center;
-    padding: 15px 0px;
-   
-    background-color: #AE59FF;
-    height:52px;
-    z-index: 4;
-    color: white;
-    width:1px;
-    transition: width 2s ease-in-out, padding 2s ease-in-out;
-  
+.sign-con li:first-child a:hover {
+  background-color: #ae59ff;
+  border: #ae59ff;
 }
 
-.sign-con li:first-child a:hover::after{
-   content: "   Sign";
-animation: btn-bg 1s linear ;
-width: 108px;
-padding: 15px 30px;
-
-
+.mobile-nav {
+  font-size: 38px;
+  display: none;
 }
 
-@keyframes btn-bg {
-    0% {
-       width:0px;
-    }
-    10%{
-        width:20px;
-        
-    } 
-    20%{
-        width:30px;
-    } 
-    30%{
-        width:40px;
-    } 
-    40%{
-        width:50px;
-    }
-    50% {
-      width: 60px;
+@media screen and (max-width: 1370px) {
+  .nav {
+    max-width: 95%;
+    padding: 20px 40px;
+  }
+}
 
-    }
-    60% {
-      width: 70px;
-    }
-    70% {
-      width: 80px;
-    }
-    
-    80% {
-      width: 90px;
-    }
-    85% {
-      width: 80px;
-    }
-    90% {
-              width:90px
-    }
+@media screen and (max-width: 990px) {
+  .nav {
+    max-width: 95%;
+    padding: 20px 40px;
+    position: relative;
+  }
 
-    95% {
-              width: 100px;
-    }
-    100% {
-              width: 108px;
-    }
-} */
+  .show-nav {
+    display: block;
+    opacity: 10;
+  }
+  .nav-con,
+  .nav__links,
+  .sign-con {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+  .nav-con {
+    position: absolute;
+    top: 62px;
+    width: 93%;
+    background-color: #c86fff;
+    padding: 12px;
+  }
+
+  .nav__links li a{
+      font-size: 15px;
+    padding: 7px 10px;
+    color:#000;
+  }
+  .sign-con li:first-child a{
+    color:#000
+  }
+}

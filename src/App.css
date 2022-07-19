@@ -90,4 +90,5 @@ li{
 .section{
     height: calc(100vh - 250px);
 width: 100vw;
+margin-bottom: 50px;
 }

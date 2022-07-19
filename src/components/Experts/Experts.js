@@ -44,7 +44,7 @@ const Experts = () => {
           </h5>
           <p>The Automated process all your website tasks</p>
         </div>
-        <div className="single-expert">
+        {/* <div className="single-expert">
           <div className="expert-img-con">
             <img src={teamImg1} alt="" />
           </div>
@@ -52,7 +52,7 @@ const Experts = () => {
             <a href="#">Mr. Urela</a>
           </h5>
           <p>The Automated process all your website tasks</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

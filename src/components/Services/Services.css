@@ -6,11 +6,12 @@
     color:var(---services-font-color);
   padding: 0 10%;
 
+
 }
 
 .service-top-con {
   position: relative;
-  gap: 30px;
+  gap: 20px;
   top:-100px;
 }
 .service-item {
@@ -20,12 +21,16 @@
   background: #fff;
   padding: 29px 24px;
     gap:20px;
-    max-width: 33.33%;
+    max-width: 33%;
 }
 
 .service-item__img-con{
          position: relative;
     top: 8px;
+}
+
+.service-item div{
+
 }
 
 .service-item h3 {
@@ -51,3 +56,65 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1330px) {
+ .services {
+
+  
+  padding: 0 6%;
+
+
+}
+  .service-item{
+    width: 370px;
+
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  
+  .service-item p{
+    font-size: 0.9375rem;
+
+  }
+}
+
+@media screen and (max-width: 1040px) {
+ .services {
+
+  
+  padding: 0 6%;
+
+
+}
+  .service-item{
+    width: 300px;
+    padding: 18px 14px;
+    
+  }
+  
+  .service-item p{
+    font-size: 0.9375rem;
+
+  }
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .service-top-con{
+  flex-wrap: wrap;
+  justify-content:center;
+    /* max-width: 720px; */
+  }
+  .service-item{
+    width: 50%;
+    /* width: 300px; */
+
+  }
+  .right{
+    align-self: center;
+    margin: 0 auto;
+  }
+}

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import "./About.css";
-import rightIcon from "../../assets/img/right-icon.svg"
+import rightIcon from "../../assets/img/right-icon.svg";
 const About = () => {
   return (
     <section className="about flex section">
@@ -69,12 +69,15 @@ const About = () => {
           allowfullscreen
           title="video"
         />{" "} */}
+        <div>
+
         <a href="https://www.youtube.com/watch?v=up68UAfH0d0">
           <i class="bi bi-play-circle-fill"></i>
         </a>
+        </div>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

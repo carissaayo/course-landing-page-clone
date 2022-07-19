@@ -1,4 +1,14 @@
 .courses-con{
     gap:30px;
     
+    
+}
+
+
+@media screen and (max-width: 990px) {
+  .courses-con{
+  flex-wrap: wrap;
+    max-width: 720px;
+  }
+  
 }
