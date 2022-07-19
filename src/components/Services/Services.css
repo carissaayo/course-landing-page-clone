@@ -1,12 +1,9 @@
 .services {
   width: 100vw;
-  /* height: 100vh; */
   position: relative;
   background-color: #ffffff;
     color:var(---services-font-color);
   padding: 0 10%;
-
-
 }
 
 .service-top-con {
@@ -29,9 +26,7 @@
     top: 8px;
 }
 
-.service-item div{
 
-}
 
 .service-item h3 {
  margin-bottom: 10px;
@@ -103,18 +98,60 @@
 
 
 @media screen and (max-width: 990px) {
+  .services {
+ 
+  padding: 0 4%;
+
+
+}
   .service-top-con{
   flex-wrap: wrap;
   justify-content:center;
-    /* max-width: 720px; */
   }
   .service-item{
-    width: 50%;
-    /* width: 300px; */
-
+    width: 350px;
+    max-width: 100%;
   }
   .right{
     align-self: center;
     margin: 0 auto;
   }
+  
+.service-item__img-con{
+    top: -5px;
 }
+}
+
+
+
+
+@media screen and (max-width: 784px) {
+  .services {
+  padding: 0 8%;
+}
+  .service-top-con{
+  flex-wrap: wrap;
+  justify-content:center;
+  }
+  .service-item{
+    width: 330px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .right{
+    align-self: center;
+    margin: 0 auto;
+  }
+  
+.service-item__img-con{
+         position: relative;
+    top: -5px;
+}
+}
+
+@media screen and (max-width: 567px) {
+.section__title{
+  font-size: 27px;
+}
+}
+

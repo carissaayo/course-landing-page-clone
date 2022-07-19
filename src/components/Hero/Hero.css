@@ -3,7 +3,7 @@
 }
 
 .hero-con{
-    width:570px;
+    max-width:570px;
 }
 
 .hero-text{
@@ -39,4 +39,37 @@
 .hero a:hover{
     background-color: #AE59FF;
     border: #AE59FF;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .hero{
+    padding:  0 12%;
+
+    }
+.hero-text{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.hero-con{
+    max-width:540px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+.hero-text{
+    font-size: 38px;
+}
+}
+@media screen and (max-width: 575px) {
+    .hero{
+    padding:  0 4%;
+
+    }
+.hero-text{
+    font-size: 28px;
+}
 }

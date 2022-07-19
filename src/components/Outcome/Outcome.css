@@ -6,7 +6,6 @@
 
 .outcome-con{
     height: 450px;
-     /* justify-content: space-around; */
      justify-content: start;
      gap:50px;
      align-items: flex-start;

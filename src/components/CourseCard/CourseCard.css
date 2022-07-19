@@ -16,9 +16,7 @@
     margin-bottom: 15px;
     font-weight: normal;
 }
-.card__text-con h3{
-    
-}
+
 .card__text-con h3 a{
     font-size: 1.25rem;
     font-weight: 500;
@@ -58,5 +56,11 @@ font-size: 0.75rem;
 @media screen and (max-width: 990px) {
   .card{
     width: 45%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card{
+    width: 100%;
   }
 }
