@@ -38,6 +38,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+position: relative;
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -71,7 +73,7 @@ li{
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  /* grid-template-columns: repeat(2,1fr); */
 }  
 
 .block{
@@ -97,4 +99,34 @@ margin-bottom: 50px;
 .section__title{
   font-size: 27px;
 }
+}
+
+
+/* SCROLL TO STYLES */
+.scrollup {
+  position: fixed;
+  bottom: -30%;
+  right: 1.5rem;
+  z-index: 30;
+  transition: .3s;
+        background: #C86FFF;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgb(108 98 98 / 20%);
+}
+
+.scrollup:hover {
+  transform: translateY(-.25rem);
+  /* color: var(); */
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 8rem;
 }

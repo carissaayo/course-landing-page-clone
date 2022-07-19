@@ -4,6 +4,15 @@
   height: --nav-height;
   width: 100vw;
 }
+.nav.scrolled{
+  position:fixed;
+  z-index: 40;
+  width: 100%;
+  top:0;
+      background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+  padding: 20px 60px;
+transition: all .2s linear ;
+}
 
 .logo-con {
   flex: 1;
@@ -21,11 +30,11 @@
 .sign-con {
   width: 30%;
   height: 100%;
-  padding-right: 30px;
+  padding-right: 50px;
   gap: 20px;
 }
 .sign-con li {
-  height: 100%;
+  height: 52px;
   width: 100%;
   position: relative;
 }
@@ -60,15 +69,18 @@
 
 @media screen and (max-width: 1370px) {
   .nav {
-    max-width: 95%;
-    padding: 20px 40px;
+    /* max-width: 95%; */
+    padding: 20px 7%;
   }
+  .sign-con {
+  padding-right: 70px;
+}
 }
 
 @media screen and (max-width: 990px) {
   .nav {
     max-width: 100%;
-    padding: 20px 20px;
+    padding: 20px 7%;
     position: relative;
   }
 
@@ -76,21 +88,45 @@
     display: block;
     opacity: 10;
   }
-  .nav-con,
+ 
   .nav__links,
   .sign-con {
     flex-direction: column;
     align-items: flex-start;
     padding: 12px;
+    display: none;
   }
   .nav-con {
     position: absolute;
-    top: 62px;
-    width: 93%;
+    top: 88px;
+    width: 88%;
     background-color: #c86fff;
-    padding: 12px;
-    display: none;
+    padding: 0px;
+    display: block;
+    transition: height .2s ease-in-out;
+    height: 0;
+    left: 4%;
   }
+  .show{
+    height: 361px;
+    padding: 12px;
+  }
+
+  .nav-con.show{
+    border-bottom: 1px solid white;
+
+  }
+
+
+
+.nav-con.show .nav__links,.nav-con.show  .sign-con {
+  display: flex;
+}
+
+.nav-con.show .sign-con{
+    height: 148px;
+}
+
 
   .nav__links li a{
       font-size: 15px;

@@ -1,17 +1,34 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import logo from "../../assets/img/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 400) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  
   return (
-    <section className="nav flex">
+    <section className={scrolled ? "nav flex scrolled" : "nav flex"}>
       <div className="logo-con">
         <a href="#">
           <img src={logo} alt="logo" />
         </a>
       </div>
-      <nav className="nav-con flex">
+      <nav className={open ? "nav-con show flex" : "nav-con flex"}>
         <ul className="nav__links flex">
           <li>
             <a href="#">Home</a>
@@ -38,9 +55,9 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-        <div className="mobile-nav show-nav" onClick={()=>setOpen(!open)}>
-          <i class="bi bi-list"></i>
-        </div>
+      <div className="mobile-nav show-nav" onClick={() => setOpen(!open)}>
+        <i class="bi bi-list"></i>
+      </div>
     </section>
   );
 };
